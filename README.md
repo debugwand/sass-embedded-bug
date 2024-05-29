@@ -14,9 +14,11 @@ Clone this repo, cd into the directory and run the following:
 * `npm run build`
 
 You should see an error like:
-```ERROR in ./src/main.scss (./src/main.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/main.scss)
+```
+ERROR in ./src/main.scss (./src/main.scss.webpack[javascript/auto]!=!./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/main.scss)
 Module build failed (from ./node_modules/sass-loader/dist/cjs.js):
-Can't find stylesheet to import.```
+Can't find stylesheet to import.
+```
 
 While I discovered this issue using packages that had been installed from npm, in order to get a working demo without a lot of other distracting code, I've replaced these (large, noisy) dependency packages with minimal dependencies that have been mocked up in the `@somenamespace` folder. This will build either in situ or by moving it inside `node_modules`.
 
