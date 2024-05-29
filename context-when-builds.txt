@@ -1,0 +1,18 @@
+---
+getWebpackImporter prev: /Users/localuser/code/sass-build/sass-embedded-bug/src/main.scss
+getWebpackImporter originalUrl: @somenamespace/mainSass/main.scss
+---
+getWebpackImporter prev: /Users/localuser/code/sass-build/sass-embedded-bug/@somenamespace/mainSass/main.scss
+getWebpackImporter originalUrl: @somenamespace/depx/main
+---
+getWebpackImporter prev: /Users/localuser/code/sass-build/sass-embedded-bug/@somenamespace/depx/main.scss
+getWebpackImporter originalUrl: @somenamespace/dep0/main
+---
+getWebpackImporter prev: /Users/localuser/code/sass-build/sass-embedded-bug/@somenamespace/mainSass/main.scss
+getWebpackImporter originalUrl: @somenamespace/depy/main
+---
+getWebpackImporter prev: /Users/localuser/code/sass-build/sass-embedded-bug/@somenamespace/depy/main.scss
+getWebpackImporter originalUrl: @somenamespace/dep0/main
+---
+getWebpackImporter prev: /Users/localuser/code/sass-build/sass-embedded-bug/@somenamespace/mainSass/main.scss
+getWebpackImporter originalUrl: @somenamespace/depz/main

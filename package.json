@@ -1,0 +1,20 @@
+{
+  "name": "sass-embedded-bug",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js --stats-children"
+  },
+  "author": "https://github.com/debugwand",
+  "license": "MIT",
+  "description": "A proof of concept to demonstrate resolution problems when building SASS from webpack, css-loader, sass-loader, and sass-embedded",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.0",
+    "sass": "^1.77.2",
+    "sass-embedded": "^1.77.2",
+    "sass-loader": "^14.2.1",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
